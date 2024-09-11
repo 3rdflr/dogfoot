@@ -6,20 +6,34 @@
     <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
-        <!--To do: Wifi Icon-->
+            <i class="fa-solid fa-wifi"></i>
     </div>
         <div class="status-bar__column">
             <span>18:43</span>
             <!--real clock-->
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
-            <!--battery icon-->
-            <!--lighting icon-->
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
         </div> 
     </div>
+    
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">welcome to kokoa talk</h1>
+        <p classs="welcome-header__text">login descripsion</p>
+    </header>
+
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="password">
+        <input type="submit" value="Log in">
+        <a href="#">Find kakao Account or Password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/2cb872ecbb.js" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
