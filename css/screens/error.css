@@ -1,0 +1,35 @@
+.error_box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error_box span {
+    font-size: large;
+}
+
+.error_mark {
+    color: rgba(255, 34, 34, 0.9);
+    margin: -90px 0px 50px 0px;
+}
+
+.error_box-check {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.error_box-check a {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0.6);
+}
